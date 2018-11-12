@@ -16,7 +16,7 @@ export default function (state= initialState, action) {
         }
         case PREV_STEP:
         return {
-            ...state,
+            ...state, 
             state: state.step = action.payload-1
         }
         case VALUES:

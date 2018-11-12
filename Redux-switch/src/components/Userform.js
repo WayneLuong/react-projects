@@ -13,6 +13,7 @@ export class Userform extends Component {
         email: '',
         address: ''
     }
+    
   next = (step) => {
     console.log("next");
     this.props.addStep(step);

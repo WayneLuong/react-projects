@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { connect } from "react-redux";
 
 export class Name extends Component {
   continue = () => {
@@ -24,8 +23,4 @@ export class Name extends Component {
   }
 }
 
-const mapStateToProps = state => ({
-  reducerOne: state.reducer1
-});
-
-export default connect(mapStateToProps)(Name);
+export default (Name);
